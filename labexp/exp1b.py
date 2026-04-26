@@ -44,7 +44,7 @@ def t_error(t):
 
 lexer = lex.lex()
 
-code = open('Text1.cpp').read()
+code = open('text.cpp').read()
 lexer.input(code)
 
 while True:
